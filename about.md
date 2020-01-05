@@ -2,16 +2,33 @@
 layout: page
 title: About
 permalink: /about/
-main_nav: true
 ---
 
-![alt text]({{ site.baseurl }}/assets/profile-placeholder.gif "Profile Picture"){:.profile}
+[기본정보]
+이름: 장성원
+출생: 1996년생 12월 3일
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+[소속]
+경북대학교 컴퓨터학부 학사(2015.03~)
+경북대학교 뉴로모픽 컴퓨팅  연구실 소속(2019.03~)
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+[수상]
+경북대학교 IT대학 코드페어 해커톤 우수상 수상
+대구광역시 빅데이터 전문가 육성과정 대상
+숨은 빅데이터 찾기 공모전 우수상 수상
+창원시 빅데이터 공모전 창원시장상 수상
+디지털성범죄 피해방지 아이디어/REP 우수 아이디어 선정
+제 3회 부산 ICT융합해카톤 부산정보진흥원장상 수상
+부산 EDC 해커톤 장려상 수상
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[집필]
+인공지능을 활용한 업무자동화 With Google Developers Group JEJU 집필
+WEB Animation with 냥이집사 집필
+
+[기타]
+경북대학교 '빅데이터 기초 실습' 조교
+대구광역시 빅데이터 전문가 육성과정 이수
+인공지능을 활용한 업무자동화 교육 이수
 
 [centrarium]: https://github.com/bencentra/centrarium
 [bencentra]: http://bencentra.com
