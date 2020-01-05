@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+main_nav: true
 ---
 
 [기본정보]
