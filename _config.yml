@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Centrarium
+title: Sungwon's blog
 subtitle: "인공지능에게 지시를 내리는 사람이 되자"
 email: dnjs2113@gmail.com
 name: sungwon Jang
@@ -21,7 +21,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jjangsungwon.github.io" # the base hostname & protocol for your site
 cover: "/assets/header.jpg"
-logo: "/assets/logo.png"
+logo: "/assets/soccer.png"
 timezone: Asia/Seoul
 
 # Build settings
