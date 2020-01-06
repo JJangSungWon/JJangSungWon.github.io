@@ -21,7 +21,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jjangsungwon.github.io" # the base hostname & protocol for your site
 cover: "/assets/header.jpg"
-logo: "/assets/soccer.jpg"
+logo: "/assets/soccer_ball.png"
 timezone: Asia/Seoul
 
 # Build settings
