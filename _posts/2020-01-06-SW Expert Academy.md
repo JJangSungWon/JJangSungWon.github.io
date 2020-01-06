@@ -2,8 +2,9 @@
 layout: post
 title: "SW Expert Academy 알고리즘 공부"
 date: 2020-01-06
-author:장성원
-categories:알고리즘
+author : 장성원
+categories : 알고리즘
+
 ---
 
 # SW Expert Academy소개
