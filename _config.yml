@@ -1,5 +1,9 @@
 # External plugins
 # See http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html for making `jekyll archives` work.
+
+disqus_url : <dnjs2113@gmail.com>
+disqus_id: <장성원>
+
 plugins:
 #  - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
