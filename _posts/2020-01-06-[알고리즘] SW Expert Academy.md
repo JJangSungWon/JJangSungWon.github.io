@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SW Expert Academy 알고리즘 공부"
+title: "[알고리즘] SW Expert Academy 알고리즘 공부"
 date: 2020-01-06
 author : 장성원
 categories : 알고리즘
@@ -22,11 +22,11 @@ SW Expert Academy는 크게 `3가지` 카테고리로 분류되어 있으며 알
 ### Code
 ![SW Learn](/assets/image/algorithm_code.jpg)
 다양한 문제를 풀 수 있다. 
-  
+
 ### Learn
 ![SW Learn](/assets/image/algorithm_learn.jpg)
 체계적인 학습과정 혹은 알고리즘과 상세한 코드가 나와있다.
-  
+
 ### Talk
 ![SW Learn](/assets/image/algorithm_talk.jpg)
 다양한 사람들과 소통하며 공부의 효율을 높일 수 있다.  
