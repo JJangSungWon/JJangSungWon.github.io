@@ -15,17 +15,33 @@ categories : 알고리즘
 
 SW Expert Academy는 크게 `3가지` 카테고리로 분류되어 있으며 알고리즘 공부에 최적화 되어있다고 생각한다.
 
+<br>
+
+<br>
+
 ### 홈
 ![SW Expert Academy](/assets/image/algorithm_2.jpg)
 홈화면에서는 다양한 정보를 얻을 수 있다.
+
+<br>
+
+<br>
 
 ### Code
 ![SW Learn](/assets/image/algorithm_code.jpg)
 다양한 문제를 풀 수 있다. 
 
+<br>
+
+<br>
+
 ### Learn
 ![SW Learn](/assets/image/algorithm_learn.jpg)
 체계적인 학습과정 혹은 알고리즘과 상세한 코드가 나와있다.
+
+<br>
+
+<br>
 
 ### Talk
 ![SW Learn](/assets/image/algorithm_talk.jpg)
