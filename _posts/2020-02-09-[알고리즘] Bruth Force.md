@@ -1,6 +1,6 @@
 ---
 layout : post
-title : "[알고리즘] - Bruth Force(브루트 포스)"
+title : "[알고리즘] Bruth Force(브루트 포스)"
 data : 2020-02-09
 author : 장성원
 categories : 알고리즘
