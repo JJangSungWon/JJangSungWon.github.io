@@ -59,6 +59,7 @@ highlightjs_theme: "monokai-sublime"
 
 # Google analytics
 ga_tracking_id: "UA-162783141-1"
+google_analytics: 'UA-162783141-1'
 
 # Category descriptions (for archive pages)
 #descriptions:
