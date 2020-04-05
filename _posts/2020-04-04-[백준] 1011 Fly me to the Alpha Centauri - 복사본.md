@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Baekjoon] Fly me to the Alpha Centauri"
+title: "[BOJ] Fly me to the Alpha Centauri"
 date: 2020-04-04
 author : 장성원
 categories : 백준
