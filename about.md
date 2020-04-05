@@ -27,9 +27,15 @@ main_nav: true
 WEB Animation with 냥이집사 집필  
 
 [기타]  
-경북대학교 '빅데이터 기초 실습' 조교  
+경북대학교 '빅데이터 기초 실습' 튜터
+경북대학교 '프로그래밍기초' 튜터
 대구광역시 빅데이터 전문가 육성과정 이수  
 인공지능을 활용한 업무자동화 교육 이수  
+라이브코로나 사이트
+
+[]: https://livecorona.co.kr/
+
+ 개발 참여
 
 [centrarium]: https://github.com/bencentra/centrarium
 [bencentra]: http://bencentra.com
