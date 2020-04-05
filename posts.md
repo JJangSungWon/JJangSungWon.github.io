@@ -6,7 +6,8 @@ main_nav: true
 ---
 
 {% for category in site.categories %}
-  {% capture cat %}{% endcapture %}
+  {% capture cat %}{{ category | first }}{% endcapture %}
+
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
@@ -26,3 +27,4 @@ main_nav: true
   {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
+
