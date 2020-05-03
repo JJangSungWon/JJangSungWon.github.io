@@ -8,11 +8,14 @@ main_nav: true
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
 
-  <h2 id="{{cat}}">{{ cat |  }}</h2>
-  {% for desc in site.descriptions %}
+  <summary><h2 id="{{cat}}">{{ cat |  }}</h2></summary>
+
+<div markdown="1">
+    {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
 
       <p class="desc"><em>{{ desc.desc }}</em></p>
+
 ​    {% endif %}
   {% endfor %}
 
@@ -26,7 +29,11 @@ main_nav: true
     </li>
   {% endfor %}
   </ul>
+
   {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
+</div>
+
+
 
