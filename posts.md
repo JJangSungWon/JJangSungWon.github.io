@@ -9,7 +9,7 @@ main_nav: true
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
 
-```
+```markdown
 <details>
 <summary>접기/펼치기 버튼</summary>
 <div markdown="1">
