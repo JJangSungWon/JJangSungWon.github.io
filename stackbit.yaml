@@ -232,7 +232,7 @@ models:
         name: author
         label: Author
       - type: string
-        name: Categories
+        name: categories
         label: Categories
       - type: string
         name: tags

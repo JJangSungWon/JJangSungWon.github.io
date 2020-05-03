@@ -2,14 +2,8 @@
 layout: page
 title: "Posts"
 permalink: /posts/
+main_nav: true
 ---
-
-{% for category in site.categories %}
-  {% capture cat %}{{ category | first }}{% endcapture %}
-  <button type="button" onclick="window.location.href='#{{cat}}' ">{{ cat | capitalize }} ({{site.categories[cat].size}})</button>
-{% endfor %}
-
-<hr>
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
