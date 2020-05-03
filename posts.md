@@ -2,41 +2,33 @@
 layout: page
 title: "Posts"
 permalink: /posts/
-main_nav: true
-
 ---
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
+  <button type="button" onclick="window.location.href='#{{cat}}' ">{{ cat | capitalize }} ({{site.categories[cat].size}})</button>
+{% endfor %}
 
-  <h2 id="{{cat}}">{{ cat |  }}</h2>
+<hr>
 
+{% for category in site.categories %}
+  {% capture cat %}{{ category | first }}{% endcapture %}
+  <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
   {% for desc in site.descriptions %}
     {% if desc.cat == cat %}
-
       <p class="desc"><em>{{ desc.desc }}</em></p>
-
-​    {% endif %}
+    {% endif %}
   {% endfor %}
-
   <ul class="posts-list">
   {% for post in site.categories[cat] %}
     <li>
-      <details markdown="1">
-  		<summary>목록</summary>
-          
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </strong>
       <span class="post-date">- {{ post.date | date_to_long_string }}</span>
-      </deails>
     </li>
   {% endfor %}
   </ul>
-
-
-
   {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
-
