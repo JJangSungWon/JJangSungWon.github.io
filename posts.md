@@ -8,18 +8,15 @@ main_nav: true
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
 
-  <summary><h2 id="{{cat}}">{{ cat |  }}</h2></summary>
-
-<div markdown="1">
-    {% for desc in site.descriptions %}
-    {% if desc.cat == cat %}
-
-      <p class="desc"><em>{{ desc.desc }}</em></p>
-
-​    {% endif %}
-  {% endfor %}
-
-  <ul class="posts-list">
+<details>
+    <summary> <h2 id="{{cat}}">{{ cat |  }}</h2></summary>
+    <div markdown="1">
+        {% for desc in site.descriptions %}
+    		{% if desc.cat == cat %}
+        <p class="desc"><em>{{ desc.desc }}</em></p>
+            {% endif %}
+  		{% endfor %}
+          <ul class="posts-list">
   {% for post in site.categories[cat] %}
     <li>
       <strong>
@@ -33,7 +30,8 @@ main_nav: true
   {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
-</div>
+    </div>
+</details>
 
 
 
