@@ -20,18 +20,18 @@ main_nav: true
   {% endfor %}
 
   <ul class="posts-list">
-  <details markdown="1">
-  <summary>목록</summary>
   {% for post in site.categories[cat] %}
     <li>
+      <details markdown="1">
+  		<summary>목록</summary>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </strong>
       <span class="post-date">- {{ post.date | date_to_long_string }}</span>
+      </deails>
     </li>
   {% endfor %}
-  </deails>
-  </ul>
+  </ul>
 
 
 
