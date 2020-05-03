@@ -24,6 +24,7 @@ main_nav: true
     <li>
       <details markdown="1">
   		<summary>목록</summary>
+          
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </strong>
